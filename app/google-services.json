@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "538466198328",
+    "project_id": "imagetotext-a0952",
+    "storage_bucket": "imagetotext-a0952.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538466198328:android:4acced520f0fb16d1297cd",
+        "android_client_info": {
+          "package_name": "com.chivumarius.imagetotext"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtUnSuWFJnxqX7d_0Lpv9sT2oNgO_X62E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

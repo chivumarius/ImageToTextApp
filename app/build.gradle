@@ -1,0 +1,53 @@
+plugins {
+    id 'com.android.application'
+}
+
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.chivumarius.imagetotext"
+        minSdk 33
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        targetSdkVersion 33
+        minSdkVersion 22
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    namespace 'com.chivumarius.imagetotext'
+}
+
+dependencies {
+
+    // (ML-KIT LIN 1) "TEXT RECOGNITION" - "ML-KIT LIBRARY" ("MACHINE LEARNING LIBRARY")
+    implementation platform('com.google.firebase:firebase-bom:29.0.3')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.android.gms:play-services-mlkit-text-recognition:19.0.0'
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    // (ML-KIT LIN 2) "TEXT RECOGNITION" - "ML-KIT LIBRARY" ("MACHINE LEARNING LIBRARY")
+    implementation 'com.google.firebase:firebase-core:21.1.1'
+    implementation 'com.google.mlkit:vision-common:17.3.0'
+
+    testImplementation 'junit:junit:'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}
