@@ -20,9 +20,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Building the "Image To Text" Conversion Application in Android Studio using Java language and Machine Learning implementation through ML Kit Text Recognition v2 API library
+Building the "Image To Text" Conversion Application in Android Studio using Java language and <a href="https://developers.google.com/ml-kit">Machine Learning</a> implementation through <a href="https://developers.google.com/ml-kit/vision/text-recognition/v2">ML-Kit Text Recognition v2 API</a> library
 ##
-
+ 
 
 <br />
 <br />
