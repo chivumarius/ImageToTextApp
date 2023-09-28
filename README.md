@@ -33,9 +33,9 @@ Building the "Image To Text" Conversion Application in Android Studio using Java
 
 
 <div align="center">  
-  <img src="https://i.imgur.com/BTNS2iG.jpg" width="300"> 
-  <img src="https://i.imgur.com/S2u5s2Z.jpg" width="300"> 
-  <img src="https://i.imgur.com/ypNoeAM.jpg" width="300">
+  <img src="https://i.imgur.com/BTNS2iG.jpg" width="250"> 
+  <img src="https://i.imgur.com/S2u5s2Z.jpg" width="250"> 
+  <img src="https://i.imgur.com/ypNoeAM.jpg" width="250">
 </div>
 
 <br />
